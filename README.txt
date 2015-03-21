@@ -3,7 +3,6 @@ In particular, it can price N^th-to-Default Swap, Synthetic CDO and it can evalu
 
 *** INSTALLATION
 There is not a real installation, just modify the Makefile in order to set your CUDA and CXX compiler and then type:
-	mkdir obj && mkdir lib
 	make
 and it will create static library lib/libcredit.a. Then, if you want to try some tests you can type:
 	make test
